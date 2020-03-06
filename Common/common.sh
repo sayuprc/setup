@@ -33,7 +33,7 @@ sudo yum -y update
 #######################################################
 sudo yum -y install epel-release
 sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
-sudo yum -y install wget unzip gcc gcc-c++ bzip2 make kernel-devel curl-devel expat-devel gettext-devel openssl-devel perl-devel zlib-devel autoconf asciidoc xmlto docbook2X ncurses-devel expect readline-devel zlib-devel sqlite-devel re2c libxml2 libxml2-devel bzip2-devel libjpeg-devel libpng-devel libicu-devel readline-devel libtidy libtidy-devel libxslt-devel automake libffi-devel httpd httpd-devel iptables-services ffmpeg ffmpeg-devel
+sudo yum -y install wget unzip gcc gcc-c++ bzip2 make kernel-devel curl-devel expat-devel gettext-devel openssl-devel perl-devel zlib-devel autoconf asciidoc xmlto docbook2X ncurses-devel expect readline-devel zlib-devel sqlite-devel re2c libxml2 libxml2-devel bzip2-devel libjpeg-devel libpng-devel libicu-devel readline-devel libtidy libtidy-devel libxslt-devel automake libffi-devel httpd httpd-devel iptables-services ffmpeg ffmpeg-devel oniguruma oniguruma-devel
 sudo yum -y install http://packages.psychotic.ninja/7/base/x86_64/RPMS/psychotic-release-1.0.0-1.el7.psychotic.noarch.rpm
 sudo yum -y --enablerepo=psychotic-plus install libzip libzip-devel
 
